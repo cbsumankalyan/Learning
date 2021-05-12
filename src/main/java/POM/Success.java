@@ -1,6 +1,6 @@
 package POM;
 
-import Pages.SuperTestNG;
+import Utility.SuperTestNG;
 
 public class Success extends SuperTestNG {
 

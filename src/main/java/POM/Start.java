@@ -11,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 
-import Pages.SuperTestNG;
+import Utility.SuperTestNG;
 
 public class Start extends SuperTestNG {
 	
