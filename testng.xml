@@ -5,6 +5,7 @@
     <classes>
       <class name="Tests.ScreenShot"/>
       <class name="Tests.Base64ScreenShot"/>
+      <class name="Tests.KeyBoardKeys"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

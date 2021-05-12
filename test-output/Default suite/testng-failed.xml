@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.ScreenShot">
+      <class name="Tests.KeyBoardKeys">
         <methods>
+          <include name="Keys"/>
           <include name="PostCondition"/>
           <include name="StartReport"/>
           <include name="teardown"/>
-          <include name="imgscreenshot" invocation-numbers="0"/>
           <include name="PreCondition"/>
         </methods>
-      </class> <!-- Tests.ScreenShot -->
+      </class> <!-- Tests.KeyBoardKeys -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
