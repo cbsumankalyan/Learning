@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-12T11:02:29 IST" name="Default suite" finished-at="2021-05-12T11:03:06 IST" duration-ms="37162">
+  <suite started-at="2021-05-12T11:45:28 IST" name="Default suite" finished-at="2021-05-12T11:45:56 IST" duration-ms="27547">
     <groups>
     </groups>
-    <test started-at="2021-05-12T11:02:29 IST" name="Default test" finished-at="2021-05-12T11:03:06 IST" duration-ms="37162">
-      <class name="Tests.KeyBoardKeys">
-        <test-method is-config="true" signature="StartReport()[pri:0, instance:Tests.KeyBoardKeys@5e316c74]" started-at="2021-05-12T11:02:29 IST" name="StartReport" finished-at="2021-05-12T11:02:30 IST" duration-ms="605" status="PASS">
+    <test started-at="2021-05-12T11:45:28 IST" name="Default test" finished-at="2021-05-12T11:45:56 IST" duration-ms="27547">
+      <class name="Tests.WebElements">
+        <test-method is-config="true" signature="StartReport()[pri:0, instance:Tests.WebElements@5e316c74]" started-at="2021-05-12T11:45:28 IST" name="StartReport" finished-at="2021-05-12T11:45:29 IST" duration-ms="350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartReport -->
-        <test-method is-config="true" signature="PreCondition()[pri:0, instance:Tests.KeyBoardKeys@5e316c74]" started-at="2021-05-12T11:02:30 IST" name="PreCondition" finished-at="2021-05-12T11:02:45 IST" duration-ms="15031" status="PASS">
+        <test-method is-config="true" signature="PreCondition()[pri:0, instance:Tests.WebElements@5e316c74]" started-at="2021-05-12T11:45:29 IST" name="PreCondition" finished-at="2021-05-12T11:45:44 IST" duration-ms="15592" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreCondition -->
-        <test-method signature="Keys()[pri:0, instance:Tests.KeyBoardKeys@5e316c74]" started-at="2021-05-12T11:02:45 IST" name="Keys" finished-at="2021-05-12T11:03:06 IST" duration-ms="20731" status="PASS">
+        <test-method signature="Elements()[pri:0, instance:Tests.WebElements@5e316c74]" started-at="2021-05-12T11:45:44 IST" name="Elements" finished-at="2021-05-12T11:45:55 IST" duration-ms="10770" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Keys -->
-        <test-method is-config="true" signature="PostCondition()[pri:0, instance:Tests.KeyBoardKeys@5e316c74]" started-at="2021-05-12T11:03:06 IST" name="PostCondition" finished-at="2021-05-12T11:03:06 IST" duration-ms="742" status="PASS">
+        </test-method> <!-- Elements -->
+        <test-method is-config="true" signature="PostCondition()[pri:0, instance:Tests.WebElements@5e316c74]" started-at="2021-05-12T11:45:55 IST" name="PostCondition" finished-at="2021-05-12T11:45:56 IST" duration-ms="796" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PostCondition -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.KeyBoardKeys@5e316c74]" started-at="2021-05-12T11:03:06 IST" name="teardown" finished-at="2021-05-12T11:03:07 IST" duration-ms="456" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.WebElements@5e316c74]" started-at="2021-05-12T11:45:56 IST" name="teardown" finished-at="2021-05-12T11:45:56 IST" duration-ms="410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Tests.KeyBoardKeys -->
+      </class> <!-- Tests.WebElements -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

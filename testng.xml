@@ -6,6 +6,7 @@
       <class name="Tests.ScreenShot"/>
       <class name="Tests.Base64ScreenShot"/>
       <class name="Tests.KeyBoardKeys"/>
+      <class name="Tests.WebElements"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
