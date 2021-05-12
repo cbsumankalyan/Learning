@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-12T11:45:28 IST" name="Default suite" finished-at="2021-05-12T11:45:56 IST" duration-ms="27547">
+  <suite started-at="2021-05-12T13:33:13 IST" name="Default suite" finished-at="2021-05-12T13:33:38 IST" duration-ms="25566">
     <groups>
     </groups>
-    <test started-at="2021-05-12T11:45:28 IST" name="Default test" finished-at="2021-05-12T11:45:56 IST" duration-ms="27547">
-      <class name="Tests.WebElements">
-        <test-method is-config="true" signature="StartReport()[pri:0, instance:Tests.WebElements@5e316c74]" started-at="2021-05-12T11:45:28 IST" name="StartReport" finished-at="2021-05-12T11:45:29 IST" duration-ms="350" status="PASS">
+    <test started-at="2021-05-12T13:33:13 IST" name="Default test" finished-at="2021-05-12T13:33:38 IST" duration-ms="25566">
+      <class name="Tests.SelectDropDown">
+        <test-method is-config="true" signature="StartReport()[pri:0, instance:Tests.SelectDropDown@5e316c74]" started-at="2021-05-12T13:33:13 IST" name="StartReport" finished-at="2021-05-12T13:33:13 IST" duration-ms="423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartReport -->
-        <test-method is-config="true" signature="PreCondition()[pri:0, instance:Tests.WebElements@5e316c74]" started-at="2021-05-12T11:45:29 IST" name="PreCondition" finished-at="2021-05-12T11:45:44 IST" duration-ms="15592" status="PASS">
+        <test-method is-config="true" signature="PreCondition()[pri:0, instance:Tests.SelectDropDown@5e316c74]" started-at="2021-05-12T13:33:13 IST" name="PreCondition" finished-at="2021-05-12T13:33:27 IST" duration-ms="13272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreCondition -->
-        <test-method signature="Elements()[pri:0, instance:Tests.WebElements@5e316c74]" started-at="2021-05-12T11:45:44 IST" name="Elements" finished-at="2021-05-12T11:45:55 IST" duration-ms="10770" status="PASS">
+        <test-method signature="SelectList()[pri:0, instance:Tests.SelectDropDown@5e316c74]" started-at="2021-05-12T13:33:27 IST" name="SelectList" finished-at="2021-05-12T13:33:38 IST" duration-ms="11081" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Elements -->
-        <test-method is-config="true" signature="PostCondition()[pri:0, instance:Tests.WebElements@5e316c74]" started-at="2021-05-12T11:45:55 IST" name="PostCondition" finished-at="2021-05-12T11:45:56 IST" duration-ms="796" status="PASS">
+        </test-method> <!-- SelectList -->
+        <test-method is-config="true" signature="PostCondition()[pri:0, instance:Tests.SelectDropDown@5e316c74]" started-at="2021-05-12T13:33:38 IST" name="PostCondition" finished-at="2021-05-12T13:33:38 IST" duration-ms="748" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PostCondition -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.WebElements@5e316c74]" started-at="2021-05-12T11:45:56 IST" name="teardown" finished-at="2021-05-12T11:45:56 IST" duration-ms="410" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.SelectDropDown@5e316c74]" started-at="2021-05-12T13:33:38 IST" name="teardown" finished-at="2021-05-12T13:33:39 IST" duration-ms="420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Tests.WebElements -->
+      </class> <!-- Tests.SelectDropDown -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
