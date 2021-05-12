@@ -2,39 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-10T17:47:48 IST" name="Default suite" finished-at="2021-05-10T17:47:58 IST" duration-ms="9590">
+  <suite started-at="2021-05-12T11:02:29 IST" name="Default suite" finished-at="2021-05-12T11:03:06 IST" duration-ms="37162">
     <groups>
     </groups>
-    <test started-at="2021-05-10T17:47:48 IST" name="Default test" finished-at="2021-05-10T17:47:58 IST" duration-ms="9590">
-      <class name="Tests.ScreenShot">
-        <test-method is-config="true" signature="StartReport()[pri:0, instance:Tests.ScreenShot@6ac13091]" started-at="2021-05-10T17:47:48 IST" name="StartReport" finished-at="2021-05-10T17:47:49 IST" duration-ms="502" status="PASS">
+    <test started-at="2021-05-12T11:02:29 IST" name="Default test" finished-at="2021-05-12T11:03:06 IST" duration-ms="37162">
+      <class name="Tests.KeyBoardKeys">
+        <test-method is-config="true" signature="StartReport()[pri:0, instance:Tests.KeyBoardKeys@5e316c74]" started-at="2021-05-12T11:02:29 IST" name="StartReport" finished-at="2021-05-12T11:02:30 IST" duration-ms="605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartReport -->
-        <test-method is-config="true" signature="PreCondition()[pri:0, instance:Tests.ScreenShot@6ac13091]" started-at="2021-05-10T17:47:49 IST" name="PreCondition" finished-at="2021-05-10T17:47:57 IST" duration-ms="8061" status="PASS">
+        <test-method is-config="true" signature="PreCondition()[pri:0, instance:Tests.KeyBoardKeys@5e316c74]" started-at="2021-05-12T11:02:30 IST" name="PreCondition" finished-at="2021-05-12T11:02:45 IST" duration-ms="15031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreCondition -->
-        <test-method signature="imgscreenshot(java.lang.reflect.Method)[pri:0, instance:Tests.ScreenShot@6ac13091]" started-at="2021-05-10T17:47:57 IST" name="imgscreenshot" finished-at="2021-05-10T17:47:57 IST" duration-ms="208" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Tests.ScreenShot.imgscreenshot(java.lang.reflect.Method) throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="Keys()[pri:0, instance:Tests.KeyBoardKeys@5e316c74]" started-at="2021-05-12T11:02:45 IST" name="Keys" finished-at="2021-05-12T11:03:06 IST" duration-ms="20731" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- imgscreenshot -->
-        <test-method is-config="true" signature="PostCondition()[pri:0, instance:Tests.ScreenShot@6ac13091]" started-at="2021-05-10T17:47:57 IST" name="PostCondition" finished-at="2021-05-10T17:47:58 IST" duration-ms="772" status="PASS">
+        </test-method> <!-- Keys -->
+        <test-method is-config="true" signature="PostCondition()[pri:0, instance:Tests.KeyBoardKeys@5e316c74]" started-at="2021-05-12T11:03:06 IST" name="PostCondition" finished-at="2021-05-12T11:03:06 IST" duration-ms="742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PostCondition -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.ScreenShot@6ac13091]" started-at="2021-05-10T17:47:58 IST" name="teardown" finished-at="2021-05-10T17:47:58 IST" duration-ms="460" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.KeyBoardKeys@5e316c74]" started-at="2021-05-12T11:03:06 IST" name="teardown" finished-at="2021-05-12T11:03:07 IST" duration-ms="456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Tests.ScreenShot -->
+      </class> <!-- Tests.KeyBoardKeys -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
