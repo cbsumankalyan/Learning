@@ -1,12 +1,16 @@
 package POM;
 
+import java.util.List;
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
@@ -20,6 +24,9 @@ public class Start extends SuperTestNG {
 	
 	@FindBy(name = "firstName")
 	private WebElement FirstName;
+	
+	@FindBys(@FindBy (xpath = "//select[@name= 'country']/option"))
+	private List<WebElement> markets;
 	
 	public Start (WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -41,6 +48,40 @@ public class Start extends SuperTestNG {
 				MediaEntityBuilder.createScreenCaptureFromBase64String(image).build());
 		
 	}
+	
+	public void ListElements() throws InterruptedException {
+		
+		Thread.sleep(10000);
+		
+		String [] Markets = {
+				"Anguilla",
+				"Bahamas",
+				"Barbados",
+				"Bon Air",
+				"Canada",
+				"Curacao",
+				"Dominica",
+				"Dominican Republic",
+				"Grenada",
+				"Guyana",
+				"Jamaica",
+				"Trinidad And Tobago",
+				"Turks & Caico",
+				"United States",
+				"Usvi"
+				
+		};
+		
+		for (int i = 0; i < Markets.length; i++) {
+			
+			Assert.assertEquals(markets.get(i).getText(), Markets[i]);
+			childtest.log(Status.INFO, markets.get(i).getText()+ "--->"+Markets[i]);
+		}
+		
+		
+		
+	}
+	
 	
 
 }
