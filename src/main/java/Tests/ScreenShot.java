@@ -7,7 +7,8 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.annotations.Test;
-import Pages.SuperTestNG;
+
+import Utility.SuperTestNG;
 
 public class ScreenShot extends SuperTestNG {
 

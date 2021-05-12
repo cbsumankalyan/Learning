@@ -1,4 +1,4 @@
-package Pages;
+package Utility;
 
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;

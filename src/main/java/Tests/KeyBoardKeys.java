@@ -3,7 +3,7 @@ package Tests;
 import org.testng.annotations.Test;
 
 import POM.Start;
-import Pages.SuperTestNG;
+import Utility.SuperTestNG;
 
 public class KeyBoardKeys extends SuperTestNG {
 	

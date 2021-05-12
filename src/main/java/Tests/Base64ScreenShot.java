@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 
-import Pages.SuperTestNG;
+import Utility.SuperTestNG;
 
 public class Base64ScreenShot extends SuperTestNG {
 
