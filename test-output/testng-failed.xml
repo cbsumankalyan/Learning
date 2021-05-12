@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.KeyBoardKeys">
+      <class name="Tests.SelectDropDown">
         <methods>
-          <include name="Keys"/>
-          <include name="PostCondition"/>
-          <include name="StartReport"/>
           <include name="teardown"/>
           <include name="PreCondition"/>
+          <include name="SelectList"/>
+          <include name="StartReport"/>
+          <include name="PostCondition"/>
         </methods>
-      </class> <!-- Tests.KeyBoardKeys -->
+      </class> <!-- Tests.SelectDropDown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

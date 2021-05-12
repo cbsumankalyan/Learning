@@ -24,6 +24,7 @@ public class SuperTestNG {
 	public static ExtentTest ScreenShotBase64;
 	public static ExtentTest keys;
 	public static ExtentTest WebElements;
+	public static ExtentTest SelectDropDown;
 	
 	public static ExtentTest childtest;
 	
@@ -38,6 +39,7 @@ public class SuperTestNG {
 		ScreenShotBase64 = extent.createTest("<b><font color=407899>"+"Screenshot Base64" + "</font></b>");
 		keys = extent.createTest("<b><font color=407899>"+"KeyBoard Keys" + "</font></b>");
 		WebElements = extent.createTest("<b><font color=407899>"+"Web Elements" + "</font></b>");
+		SelectDropDown = extent.createTest("<b><font color=407899>"+"Select Drop Down" + "</font></b>");
 		
 	}
 	
