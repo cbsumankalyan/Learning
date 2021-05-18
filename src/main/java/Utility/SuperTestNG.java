@@ -16,6 +16,7 @@ public class SuperTestNG {
 	
 	public static WebDriver driver;
 	public static String url = "http://dev-enroll.unicityqa.com/master/#/start";
+	public static String Authurl = "http://admin:admin@the-internet.herokuapp.com/basic_auth";
 	
 	public static ExtentSparkReporter htmlReporter;
 	public static ExtentReports extent;
@@ -25,6 +26,7 @@ public class SuperTestNG {
 	public static ExtentTest keys;
 	public static ExtentTest WebElements;
 	public static ExtentTest SelectDropDown;
+	public static ExtentTest AuthenticationPopUP;
 	
 	public static ExtentTest childtest;
 	
@@ -40,6 +42,7 @@ public class SuperTestNG {
 		keys = extent.createTest("<b><font color=407899>"+"KeyBoard Keys" + "</font></b>");
 		WebElements = extent.createTest("<b><font color=407899>"+"Web Elements" + "</font></b>");
 		SelectDropDown = extent.createTest("<b><font color=407899>"+"Select Drop Down" + "</font></b>");
+		AuthenticationPopUP = extent.createTest("<b><font color=407899>"+"Authentication PopUP"+"</font></b>");
 		
 	}
 	
@@ -50,7 +53,7 @@ public class SuperTestNG {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get(url);
+		driver.get(Authurl);
 	}
 	
 	@AfterMethod()
