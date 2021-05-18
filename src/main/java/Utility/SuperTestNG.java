@@ -27,6 +27,7 @@ public class SuperTestNG {
 	public static ExtentTest WebElements;
 	public static ExtentTest SelectDropDown;
 	public static ExtentTest AuthenticationPopUP;
+	public static ExtentTest AlertPopUP;
 	
 	public static ExtentTest childtest;
 	
@@ -43,6 +44,7 @@ public class SuperTestNG {
 		WebElements = extent.createTest("<b><font color=407899>"+"Web Elements" + "</font></b>");
 		SelectDropDown = extent.createTest("<b><font color=407899>"+"Select Drop Down" + "</font></b>");
 		AuthenticationPopUP = extent.createTest("<b><font color=407899>"+"Authentication PopUP"+"</font></b>");
+		AlertPopUP = extent.createTest("<b><font color=407899>"+"Alert PopUP"+"</font></b>");
 		
 	}
 	
