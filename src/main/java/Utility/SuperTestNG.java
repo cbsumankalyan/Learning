@@ -3,10 +3,14 @@ package Utility;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
+
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
@@ -29,6 +33,7 @@ public class SuperTestNG {
 	public static ExtentTest AuthenticationPopUP;
 	public static ExtentTest AlertPopUP;
 	public static ExtentTest ChildBrowserPopup;
+	public static ExtentTest CrossBrowserTest;
 	
 	public static ExtentTest childtest;
 	
@@ -47,17 +52,42 @@ public class SuperTestNG {
 		AuthenticationPopUP = extent.createTest("<b><font color=407899>"+"Authentication PopUP"+"</font></b>");
 		AlertPopUP = extent.createTest("<b><font color=407899>"+"Alert PopUP"+"</font></b>");
 		ChildBrowserPopup = extent.createTest("<b><font color=407899>"+"Child Broser PopUP"+"</font></b>");
+		CrossBrowserTest = extent.createTest("<b><font color=407899>"+"Cross Broser Test"+"</font></b>");
 		
 	}
 	
+	@Parameters("browser")
 	@BeforeMethod
-	public void PreCondition() {
+	public void PreCondition(String browsername) {
+		
+		if(browsername.equalsIgnoreCase("chrome")) {
 		
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get(Authurl);
+		driver.get(url);
+		} 
+		
+		else if (browsername.equalsIgnoreCase("firefox")) {
+			
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver();
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			driver.get(url);
+			
+		}
+		
+		else if (browsername.equalsIgnoreCase("IE")) {
+			
+			WebDriverManager.iedriver().setup();
+			driver = new InternetExplorerDriver();
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			driver.get(url);
+			
+		}
 	}
 	
 	@AfterMethod()
