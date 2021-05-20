@@ -1,33 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-18T14:37:14 IST" name="Default suite" finished-at="2021-05-18T14:37:30 IST" duration-ms="16031">
+  <suite started-at="2021-05-20T17:19:57 IST" name="Suite" finished-at="2021-05-20T17:20:19 IST" duration-ms="22255">
     <groups>
     </groups>
-    <test started-at="2021-05-18T14:37:14 IST" name="Default test" finished-at="2021-05-18T14:37:30 IST" duration-ms="16031">
-      <class name="Tests.AuthenticationPopUP">
-        <test-method is-config="true" signature="StartReport()[pri:0, instance:Tests.AuthenticationPopUP@6ac13091]" started-at="2021-05-18T14:37:14 IST" name="StartReport" finished-at="2021-05-18T14:37:14 IST" duration-ms="429" status="PASS">
+    <test started-at="2021-05-20T17:19:57 IST" name="chromeTest" finished-at="2021-05-20T17:20:05 IST" duration-ms="8754">
+      <class name="Tests.CrossBrowserTesting">
+        <test-method is-config="true" signature="StartReport()[pri:0, instance:Tests.CrossBrowserTesting@1e802ef9]" started-at="2021-05-20T17:19:57 IST" name="StartReport" finished-at="2021-05-20T17:19:57 IST" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartReport -->
-        <test-method is-config="true" signature="PreCondition()[pri:0, instance:Tests.AuthenticationPopUP@6ac13091]" started-at="2021-05-18T14:37:14 IST" name="PreCondition" finished-at="2021-05-18T14:37:29 IST" duration-ms="14442" status="PASS">
+        <test-method is-config="true" signature="PreCondition(java.lang.String)[pri:0, instance:Tests.CrossBrowserTesting@1e802ef9]" started-at="2021-05-20T17:19:57 IST" name="PreCondition" finished-at="2021-05-20T17:20:04 IST" duration-ms="7113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreCondition -->
-        <test-method signature="Authentication()[pri:0, instance:Tests.AuthenticationPopUP@6ac13091]" started-at="2021-05-18T14:37:29 IST" name="Authentication" finished-at="2021-05-18T14:37:29 IST" duration-ms="268" status="PASS">
+        <test-method signature="CB()[pri:0, instance:Tests.CrossBrowserTesting@1e802ef9]" started-at="2021-05-20T17:20:04 IST" name="CB" finished-at="2021-05-20T17:20:04 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Authentication -->
-        <test-method is-config="true" signature="PostCondition()[pri:0, instance:Tests.AuthenticationPopUP@6ac13091]" started-at="2021-05-18T14:37:29 IST" name="PostCondition" finished-at="2021-05-18T14:37:30 IST" duration-ms="813" status="PASS">
+        </test-method> <!-- CB -->
+        <test-method is-config="true" signature="PostCondition()[pri:0, instance:Tests.CrossBrowserTesting@1e802ef9]" started-at="2021-05-20T17:20:04 IST" name="PostCondition" finished-at="2021-05-20T17:20:05 IST" duration-ms="1204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PostCondition -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.AuthenticationPopUP@6ac13091]" started-at="2021-05-18T14:37:30 IST" name="teardown" finished-at="2021-05-18T14:37:30 IST" duration-ms="463" status="PASS">
+      </class> <!-- Tests.CrossBrowserTesting -->
+    </test> <!-- chromeTest -->
+    <test started-at="2021-05-20T17:20:05 IST" name="firefoxTest" finished-at="2021-05-20T17:20:19 IST" duration-ms="13478">
+      <class name="Tests.CrossBrowserTesting">
+        <test-method is-config="true" signature="StartReport()[pri:0, instance:Tests.CrossBrowserTesting@7ce3cb8e]" started-at="2021-05-20T17:20:05 IST" name="StartReport" finished-at="2021-05-20T17:20:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartReport -->
+        <test-method is-config="true" signature="PreCondition(java.lang.String)[pri:0, instance:Tests.CrossBrowserTesting@7ce3cb8e]" started-at="2021-05-20T17:20:05 IST" name="PreCondition" finished-at="2021-05-20T17:20:17 IST" duration-ms="11262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreCondition -->
+        <test-method signature="CB()[pri:0, instance:Tests.CrossBrowserTesting@7ce3cb8e]" started-at="2021-05-20T17:20:17 IST" name="CB" finished-at="2021-05-20T17:20:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CB -->
+        <test-method is-config="true" signature="PostCondition()[pri:0, instance:Tests.CrossBrowserTesting@7ce3cb8e]" started-at="2021-05-20T17:20:17 IST" name="PostCondition" finished-at="2021-05-20T17:20:19 IST" duration-ms="2210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostCondition -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.CrossBrowserTesting@7ce3cb8e]" started-at="2021-05-20T17:20:19 IST" name="teardown" finished-at="2021-05-20T17:20:19 IST" duration-ms="413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Tests.AuthenticationPopUP -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- Tests.CrossBrowserTesting -->
+    </test> <!-- firefoxTest -->
+  </suite> <!-- Suite -->
 </testng-results>

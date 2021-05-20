@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.SelectDropDown">
+      <class name="Tests.CrossBrowserTesting">
         <methods>
           <include name="teardown"/>
           <include name="PreCondition"/>
-          <include name="SelectList"/>
+          <include name="CB"/>
           <include name="StartReport"/>
           <include name="PostCondition"/>
         </methods>
-      </class> <!-- Tests.SelectDropDown -->
+      </class> <!-- Tests.CrossBrowserTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
