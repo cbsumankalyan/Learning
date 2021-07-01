@@ -3,15 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.CrossBrowserTesting">
+      <class name="TestNG.TC2">
         <methods>
-          <include name="teardown"/>
-          <include name="PreCondition"/>
-          <include name="CB"/>
-          <include name="StartReport"/>
-          <include name="PostCondition"/>
+          <include name="opening_browser"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- Tests.CrossBrowserTesting -->
+      </class> <!-- TestNG.TC2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
