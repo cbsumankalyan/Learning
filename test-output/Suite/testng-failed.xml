@@ -2,17 +2,18 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
-    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="sanity"/>
+        <include name="regressing"/>
+      </run>
+    </groups>
     <classes>
-      <class name="Tests.CrossBrowser">
+      <class name="TestNG.TC3">
         <methods>
-          <include name="teardown"/>
-          <include name="PreCondition"/>
-          <include name="StartReport"/>
-          <include name="PostCondition"/>
-          <include name="CrossBrowserTesting"/>
+          <include name="test2"/>
         </methods>
-      </class> <!-- Tests.CrossBrowser -->
+      </class> <!-- TestNG.TC3 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
